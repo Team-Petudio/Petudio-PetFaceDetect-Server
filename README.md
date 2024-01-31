@@ -5,6 +5,7 @@ Dog and cat face detector api server with OpenCV
 - Python 3.9
 - FastAPI
 - OpenCV
+- Yolo
 - Numpy
 - Uvicorn
 
