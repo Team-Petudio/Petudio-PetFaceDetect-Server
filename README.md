@@ -20,6 +20,11 @@ Access line `http://127.0.0.1/docs` after running FastAPI server
 
 ## 사용 방법 (How to use)
 
+### pip 설치
+```shell
+sudo apt-get install python3-pip
+```
+
 ### pip를 최신버전으로 업데이트 (Update pip to latest version)
 ```shell
 python -m pip install --upgrade pip
