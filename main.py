@@ -93,7 +93,6 @@ async def detect_dog_face_endpoint(petType: str, files: List[UploadFile] = File(
             for i in range(len(boxes)):
                 if i in indexes:
                     detected = str(classes[class_ids[i]])
-                    print(detected)
                     if (detected == petType):
                         results[idx] = True
                         continue
