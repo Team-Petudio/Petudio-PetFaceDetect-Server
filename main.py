@@ -39,7 +39,7 @@ async def detect_dog_face_endpoint(petType: str, files: List[UploadFile] = File(
     global temp_image_name
 
     # petType은 애플리케이션 서버에 있는 PetType Enum 상수와 일치시켜 관리하기 위해 대문자로 관리하고 실제 처리는 소문자로 수행
-    petType.lower()
+    petType = petType.lower()
     results = [False for _ in range(len(files))]
 
     for idx in range(len(files)):
