@@ -32,7 +32,7 @@ output_layers = [layer_names[i - 1] for i in
                  net.getUnconnectedOutLayers()]  # 레이어 중 출력 레이어의 인덱스를 가져와서 output_layers에 넣는다.
 
 
-@app.post("/detect")
+@app.post("api/v1/detect")
 async def detect_dog_face_endpoint(petType: str, files: List[UploadFile] = File(...)):
     await validate_pet_type(petType)
 
