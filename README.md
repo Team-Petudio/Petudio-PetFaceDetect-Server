@@ -78,3 +78,26 @@ pip install python-multipart
 ```shell
 uvicorn main:app --reload
 ```
+
+---
+
+## 서버 실행 후, 에러 발생 시 (When an error occurs)
+
+![스크린샷 2024-01-31 오후 11 36 06](https://github.com/Team-Petudio/Petudio-PetFaceDetect-Server/assets/84304802/8cb2fb36-5398-4bea-8ed6-753f710782e5)
+
+### libgl1-mesa-glx 설치
+```shell
+sudo apt-get install -y libgl1-mesa-glx
+```
+
+<br>
+
+---
+
+
+![스크린샷 2024-01-31 오후 11 45 25](https://github.com/Team-Petudio/Petudio-PetFaceDetect-Server/assets/84304802/5aff4bff-22e5-4d6a-af0c-ddb86eda9bce)
+
+### libglib2.0-0 설치
+```shell
+sudo apt-get install -y libglib2.0-0
+```
