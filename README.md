@@ -52,11 +52,20 @@ pip install opencv-python
 ```shell
 pip install "uvicorn[standard]"
 ```
+
 FastAPI로 작성한 프로그램을 작동시키기 위해서는 작동시킬 서버가 필요하다.
 `유비콘(Uvicorn)`은 비동기 호출을 지원하는 파이썬용 웹 서버이며, 이를 사용해서 FastAPI를 실행시킬 수 있다.
 
 To run a program written with FastAPI, you need a server to run it.
 `Uvicorn` is a web server for Python that supports asynchronous calls, which can be used to run FastAPI.
+
+<br>
+
+### python-multipart 설치
+```shell
+pip install python-multipart
+```
+멀티파트 파일을 다루기 위한 `python-multipart` 설치
 
 <br>
 
